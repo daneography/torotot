@@ -15,6 +15,11 @@
 		ACB31EC324AC204000D55C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB31EC124AC204000D55C26 /* LaunchScreen.storyboard */; };
 		ACB31ECE24AC204000D55C26 /* torototTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB31ECD24AC204000D55C26 /* torototTests.swift */; };
 		ACB31ED924AC204000D55C26 /* torototUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB31ED824AC204000D55C26 /* torototUITests.swift */; };
+		ACB31EE724AC29C900D55C26 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB31EE624AC29C900D55C26 /* CollectionViewCell.swift */; };
+		ACB31EF624AC375B00D55C26 /* air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACB31EF224AC375B00D55C26 /* air.mp3 */; };
+		ACB31EF724AC375B00D55C26 /* earth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACB31EF324AC375B00D55C26 /* earth.mp3 */; };
+		ACB31EF824AC375B00D55C26 /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACB31EF424AC375B00D55C26 /* fire.mp3 */; };
+		ACB31EF924AC375B00D55C26 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACB31EF524AC375B00D55C26 /* water.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		ACB31ED424AC204000D55C26 /* torototUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = torototUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB31ED824AC204000D55C26 /* torototUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = torototUITests.swift; sourceTree = "<group>"; };
 		ACB31EDA24AC204000D55C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB31EE624AC29C900D55C26 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		ACB31EF224AC375B00D55C26 /* air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = air.mp3; sourceTree = "<group>"; };
+		ACB31EF324AC375B00D55C26 /* earth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = earth.mp3; sourceTree = "<group>"; };
+		ACB31EF424AC375B00D55C26 /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
+		ACB31EF524AC375B00D55C26 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,12 @@
 		ACB31EB524AC204000D55C26 /* torotot */ = {
 			isa = PBXGroup;
 			children = (
+				ACB31EF124AC374C00D55C26 /* sound */,
 				ACB31EB624AC204000D55C26 /* AppDelegate.swift */,
 				ACB31EB824AC204000D55C26 /* SceneDelegate.swift */,
 				ACB31EBA24AC204000D55C26 /* ViewController.swift */,
 				ACB31EBC24AC204000D55C26 /* Main.storyboard */,
+				ACB31EE624AC29C900D55C26 /* CollectionViewCell.swift */,
 				ACB31EBF24AC204000D55C26 /* Assets.xcassets */,
 				ACB31EC124AC204000D55C26 /* LaunchScreen.storyboard */,
 				ACB31EC424AC204000D55C26 /* Info.plist */,
@@ -126,6 +138,17 @@
 				ACB31EDA24AC204000D55C26 /* Info.plist */,
 			);
 			path = torototUITests;
+			sourceTree = "<group>";
+		};
+		ACB31EF124AC374C00D55C26 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				ACB31EF224AC375B00D55C26 /* air.mp3 */,
+				ACB31EF324AC375B00D55C26 /* earth.mp3 */,
+				ACB31EF424AC375B00D55C26 /* fire.mp3 */,
+				ACB31EF524AC375B00D55C26 /* water.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB31EC324AC204000D55C26 /* LaunchScreen.storyboard in Resources */,
+				ACB31EF724AC375B00D55C26 /* earth.mp3 in Resources */,
+				ACB31EF824AC375B00D55C26 /* fire.mp3 in Resources */,
+				ACB31EF924AC375B00D55C26 /* water.mp3 in Resources */,
+				ACB31EF624AC375B00D55C26 /* air.mp3 in Resources */,
 				ACB31EC024AC204000D55C26 /* Assets.xcassets in Resources */,
 				ACB31EBE24AC204000D55C26 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +288,7 @@
 			files = (
 				ACB31EBB24AC204000D55C26 /* ViewController.swift in Sources */,
 				ACB31EB724AC204000D55C26 /* AppDelegate.swift in Sources */,
+				ACB31EE724AC29C900D55C26 /* CollectionViewCell.swift in Sources */,
 				ACB31EB924AC204000D55C26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
